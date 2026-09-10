@@ -19,5 +19,8 @@
 .theme-red .seoStrip,.theme-gold .seoStrip{background:#15100c}.theme-purple .seoStrip{background:#0d0913}
 .theme-blue .hero{background-position:center 36%}.theme-red .hero{background-position:center 42%}.theme-green .hero{background-position:center 40%}.theme-gold .hero{background-position:center 48%}.theme-purple .hero{background-position:center}
 
+/* Local prospect hero overrides */
+body.theme-blue{--hero-img:url('../CMC/cmc-hero.jpg')!important}
+
 @media(max-width:800px){.hero{min-height:670px;background-image:linear-gradient(90deg,rgba(4,9,14,.94) 0%,rgba(4,9,14,.76) 58%,rgba(4,9,14,.35) 100%),var(--hero-img);background-position:62% center}.heroGrid>div:first-child{padding:74px 0 86px;max-width:610px}.hero h1{font-size:clamp(52px,14vw,78px);letter-spacing:-3.5px}.hero .lead{font-size:18px;max-width:560px}.trustGrid{grid-template-columns:1fr 1fr}.trustItem:nth-child(2){border-right:0}.trustItem:nth-child(-n+2){border-bottom:1px solid #e4e8ec}.conceptFooter .wrap{align-items:flex-start;flex-direction:column}.mobileCall{display:block}}
 @media(max-width:520px){.hero{min-height:620px;background-image:linear-gradient(90deg,rgba(4,9,14,.96) 0%,rgba(4,9,14,.76) 72%,rgba(4,9,14,.46) 100%),var(--hero-img);background-position:66% center}.heroGrid>div:first-child{padding:62px 0 74px}.hero h1{font-size:clamp(46px,15vw,68px)}.hero .lead{font-size:17px}.trustGrid{grid-template-columns:1fr}.trustItem{border-right:0!important;border-bottom:1px solid #e4e8ec!important}.trustItem:last-child{border-bottom:0!important}.seoStrip{font-size:9px;line-height:1.45}.conceptFooter{padding-bottom:94px}}
